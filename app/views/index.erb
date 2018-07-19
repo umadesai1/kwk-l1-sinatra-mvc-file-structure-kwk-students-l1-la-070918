@@ -1,11 +1,78 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Sinatra MVC</title>
-  </head>
+<!doctype html>
 
-  <body>
-    <h1>Index</h1>
-    <p> I love programming </p>
-  </body>
+<html>
+
+<head> 
+	<title> Makeup Quiz </title>
+</head>
+
+<body>
+<h1> Welcome to the Makeup Quiz! </h1>
+<!--put errything in a form-->
+
+  
+    <h3> What type of beauty products are you looking for?</h3>
+        <input type= "radio" name="response1" value="face">face
+        <input type= "radio" name="response1" value="eyes">eyes
+        <input type= "radio" name="response1" value="lips">lips
+def product
+    if response1="face"
+        puts <h3>What is your budget? </h3>
+	    <input type= "radio" name="response2" value="drugstore">drugstore
+	    <input type= "radio" name="response2" value="highend">highend
+	<h3>Select your closest shade.</h3>
+        <input type= "radio" name="response3" value="light">light
+        <input type= "radio" name="response3" value="light-medium">light-medium
+        <input type= "radio" name="response3" value="medium">medium
+        <input type= "radio" name="response3" value="medium-dark">medium-dark
+        <input type= "radio" name="response3" value="dark">dark
+    <h3> How much coverage would you like to have?</h3>
+        <input type= "radio" name="response4" value="full">full
+        <input type= "radio" name="response4" value="medium">medium
+        <input type= "radio" name="response4" value="light">light
+    <h3> What is your undertone? <h3>
+        <input type= "radio" name= "response5" value="warm">warm
+        <input type= "radio" name= "response5" value="neutral">neutral
+        <input type= "radio" name= "response5" value="cool">cool
+    
+    
+    elsif response1= "eyes"
+        puts <h3>Do you prefer mascaras that enhance the length of your lashes or increase volume? </h3>
+      	<input type= "radio" name="response6" value="length">length
+	    <input type= "radio" name="response6" value="volume">volume
+    <h3> What is your budget?</h3>
+  	    <input type= "radio" name="response7" value="drugstore">drugstore
+	    <input type= "radio" name="response7" value="highend">highend
+    <h3>Do you prefer Natural or dramatic brows?</h3>
+        <input type= "radio" name="response8" value="natural">natural
+	    <input type= "radio" name="response8" value="dramatic">dramatic
+    <h3>What eyebrow shade would you like?</h3>
+        <input type= "radio" name="response9" value="clear">clear
+	    <input type= "radio" name="response9" value="blonde">blonde
+	    <input type= "radio" name="response9" value="brown">brown
+	    <input type= "radio" name="response9" value="auburn">auburn
+
+    else
+        puts <h3>Which product do you prefer?</h3>
+        <input type= "radio" name= "response10" value="lipstick">lipstick
+        <input type= "radio" name= "response10" value="gloss">gloss
+        <input type= "radio" name= "response10" value="lipstain">lipstain
+    <h3>Pick a Formula.</h3>
+        <input type= "radio" name= "response11" value="glossy">glossy
+        <input type= "radio" name= "response11" value="matte">matte
+        <input type= "radio" name= "response11" value="satin">satin
+    <h3>Pick a shade range.</h3>
+        <input type= "radio" name="response12" value="light">light
+        <input type= "radio" name="response12" value="light-medium">light-medium
+        <input type= "radio" name="response12" value="medium">medium
+        <input type= "radio" name="response12" value="medium-dark">medium-dark
+        <input type= "radio" name="response12" value="dark">dark
+    <h3>What is your budget?</h3>
+  	    <input type= "radio" name="response13" value="drugstore">drugstore
+	    <input type= "radio" name="response13" value="highend">highend
+	    <!--have a button here-->
+	    <input type "submit" value="SEE RESULTS"
+	    </form>
+	   </body>
 </html>
+
